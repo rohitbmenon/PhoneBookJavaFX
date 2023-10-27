@@ -1,0 +1,72 @@
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f0f0f0;
+}
+
+.table-view {
+    -fx-base: #f0f0f0;
+    -fx-control-inner-background: #f0f0f0;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5px;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+    -fx-border-color: transparent;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-style: solid;
+}
+
+.table-row-cell {
+    -fx-border-color: transparent;
+}
+
+.table-row-cell:filled {
+    -fx-text-fill: black;
+}
+
+.table-row-cell:filled:even {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-row-cell:filled:odd {
+    -fx-background-color: #f0f0f0;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #b2d8ff;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+}
+
+.button {
+    -fx-background-color: 
+        #c3c4c6,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        linear-gradient(#d9d9d9 50%, #dadada 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-insets: 0,1,2,3;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: 
+        #b6b6b8,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        linear-gradient(#d9d9d9 50%, #dadada 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+}
+
+.button:pressed {
+    -fx-background-color: 
+        #98999a,
+        linear-gradient(#d6d6d6 50%, white 100%),
+        linear-gradient(#d9d9d9 50%, #dadada 100%),
+        linear-gradient(#dddddd 0%, #f6f6f6 50%);
+}
